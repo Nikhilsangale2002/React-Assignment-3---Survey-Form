@@ -10,8 +10,6 @@ function SurveyForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you can perform further validation if needed
-    // For this example, let's just set submitted to true
     setSubmitted(true);
   };
 
